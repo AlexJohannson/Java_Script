@@ -5,3 +5,11 @@ for (let i = 0; i < arr.length; i++) {
         console.log(arr[i]);
     }
 }
+console.log('');
+
+for (let j = arr.length - 1; j >= 0; j--) {
+    if (arr[j] % 2 === 0) {
+        console.log(arr[j]);
+    }
+
+}
