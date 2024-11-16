@@ -28,7 +28,7 @@ new Client(1, 'Oleksandr', 'Oleksandr', 'oleksandr@email.com', '+10101010', [{ti
 clients[0].productsClients({title: 'Hair dryer', price: '3500 UAH'});
 console.log(clients);
 
-/*Не впевнений що перший варіант вірний. Яле в умові потрібно було зробити класом*/
+
 /*--------------------------------------------------------------------------------------------------*/
 
 
