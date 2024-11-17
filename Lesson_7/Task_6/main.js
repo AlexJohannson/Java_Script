@@ -11,9 +11,6 @@ function Car(model, producer, yearOfProduction, maxSpeedOfCar, engineVolume, col
         console.log(`The maximum speed of the car is ${this.maxSpeedOfCar} kilometers`)
     };
     this.info = function () {
-      /*  for (const key in this) {
-            console.log(key, this[key]);
-        }*/
         console.log(`Information about the car : Model - ${this.model}; Producer - ${this.producer}; Year of producer - ${this.yearOfProduction}; Maximum speed of car - ${this.maxSpeedOfCar}; Engine volume of motor - ${this.engineVolume}; Color of car - ${this.color}; Type of car - ${this.typeOfCar}; Gearbox in the car - ${this.gearbox}`);
     };
     this.increaseMaxSpeed = function (speedOfCar) {
