@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Italianno", cursive;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.wrap{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px 0 25px 0;
+    background: lightblue;
+}
+.wrap > h1 {
+    text-decoration: underline;
+}
+
+.collapse{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px 0 25px 0;
+    background: cadetblue;
+}
+.collapse > h1 {
+    text-decoration: underline;
+}
+.alpha{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px 0 25px 0;
+    background: gray;
+}
+.alpha > h1 {
+    text-decoration: underline;
+}
+.beta{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px 0 25px 0;
+    background: lightblue;
+}
+.beta > h1 {
+    text-decoration: underline;
+}
