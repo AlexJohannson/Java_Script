@@ -4,14 +4,13 @@
     box-sizing: border-box;
     font-family: "Italianno", cursive;
 }
-body{
+.wrapper{
     margin: 20px 0 20px 0;
     height: 190vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
-
 }
 .wrap{
     width: 700px;
@@ -30,7 +29,9 @@ body{
 .wrap > h1 {
     text-decoration: underline;
 }
-
+.cloneNode1-background{
+    background: darkgray;
+}
 .collapse{
     width: 700px;
     height: 300px;
@@ -47,6 +48,9 @@ body{
 }
 .collapse > h1 {
     text-decoration: underline;
+}
+.cloneNode2-background{
+    background: darkgray;
 }
 .alpha{
     width: 700px;
@@ -65,6 +69,9 @@ body{
 .alpha > h1 {
     text-decoration: underline;
 }
+.cloneNode3-background{
+    background: darkgray;
+}
 .beta{
     width: 700px;
     height: 300px;
@@ -81,4 +88,7 @@ body{
 }
 .beta > h1 {
     text-decoration: underline;
+}
+.cloneNode4-background{
+    background: darkgray;
 }
