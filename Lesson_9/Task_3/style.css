@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    background: lightgray;
+}
+.wrapper > h1 {
+    text-align: center;
+    color: darkslategray;
+    text-decoration: underline;
+}
+.courseList{
+    list-style-type: none;
+}
+.courseListItem{
+    padding: 35px 0 0 10px;
+    font-size: 20px;
+    color: darkslategray;
+}
