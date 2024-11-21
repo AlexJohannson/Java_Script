@@ -1,4 +1,14 @@
 .wrapper{
-
-    border: 2px solid red;
+     width: 25%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: lightgray;
+}
+.wrapper > h2{
+    color: darkslategray;
+}
+.wrapper > p{
+    color: darkslategray;
 }

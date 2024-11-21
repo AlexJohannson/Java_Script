@@ -12,7 +12,7 @@ wrapper.classList.add('wrapper');
 
 for (const course of coursesAndDurationArray) {
 
-     const title = document.createElement('h2');
+    const title = document.createElement('h2');
     title.innerText = `${course.title}`;
     const mouthDuration  = document.createElement('p');
     mouthDuration.innerText = `${course.monthDuration}`;
