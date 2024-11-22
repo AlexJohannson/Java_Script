@@ -12,7 +12,7 @@ form.addEventListener('submit', (event) => {
     event.preventDefault();
     const nameValue = inputName.value;
     const surnameValue = inputSurname.value;
-    const ageValue = inputAge.value;
+    const ageValue = +inputAge.value;
     let personObject = {nameValue, surnameValue, ageValue};
     console.log(personObject);
     nameObjectTitle.innerText = `${personObject.nameValue} ${personObject.surnameValue} ${personObject.ageValue}`;
