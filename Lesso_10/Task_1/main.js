@@ -14,5 +14,5 @@ buttonPress.onclick = function (){
     } else if (click === 3) {
         quote.style.display = 'none';
     }
-    click++;
+     click++;
 }
