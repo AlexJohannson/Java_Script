@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+#quote{
+    width: 350px;
+    height: 250px;
+    margin-top: 20px;
+    background: lightgray;
+}
+#quote h2{
+    text-align: center;
+    padding: 20px 0 60px 0;
+}
+#wrapper button{
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    color: darkslategray;
+    background: lightblue;
+    cursor: pointer;
+}
