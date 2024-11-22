@@ -3,6 +3,9 @@ const textAccess = document.getElementById('textAccess');
 const checkAge = document.getElementById('checkAge');
 
 
+textAccess.innerText = 'Limited access 18+!'
+
+
 accessAge.addEventListener('click', (event) => {
     event.preventDefault();
     const age = parseInt(checkAge.value);
