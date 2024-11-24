@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#constructor{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+#lines{
+    width: 300px;
+    height: 40px;
+    border: none;
+    background: lightgray;
+    text-align: center;
+}
+#lines::placeholder{
+    color: black;
+}
+#cell{
+    width: 300px;
+    height: 40px;
+    border: none;
+    background: lightgray;
+    text-align: center;
+}
+#cell::placeholder{
+    color: black;
+}
+#information{
+    width: 300px;
+    height: 40px;
+    border: none;
+    background: lightgray;
+    text-align: center;
+}
+#information::placeholder{
+    color: black;
+}
+#constructor button{
+    width: 200px;
+    height: 30px;
+    border: none;
+    background: darkslategray;
+    color: lightgray;
+    cursor: pointer;
+}
+
+#table, td, th{
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-size: 25px;
+    margin-top: 30px;
+}
