@@ -17,6 +17,10 @@ fetch('https://dummyjson.com/carts')
               totalProducts: ${card.totalProducts};
               totalQuantity: ${card.totalQuantity};
               `
+              blockCard.appendChild(informationCard);
+
+
+
 
               const olListItem = document.createElement('ol');
               olListItem.classList.add('olListItem');
@@ -32,12 +36,14 @@ fetch('https://dummyjson.com/carts')
                   Discount: ${product.discountPercentage};
                   Discount total: ${product.discountedTotal};
                   `
+
                   const image = document.createElement('img');
                   image.src = product.thumbnail;
 
-                  liListItem.appendChild(image);
                   olListItem.appendChild(liListItem);
+                  liListItem.appendChild(image);
               }
+
               blockCard.appendChild(olListItem);
               catalog.appendChild(blockCard);
           }
