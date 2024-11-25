@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    width: 100%;
+}
+#header{
+    width: 80%;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Italianno", cursive;
+    font-size: 30px;
+}
+#catalog{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.blockCard{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
