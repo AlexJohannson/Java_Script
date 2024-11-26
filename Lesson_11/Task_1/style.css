@@ -1,33 +1,50 @@
-@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
-*{
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-#wrapper{
-    width: 100%;
+#wrapper {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
-#header{
-    width: 80%;
-    height: 70px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: "Italianno", cursive;
-    font-size: 30px;
+#header {
+    text-align: center;
+    margin-bottom: 20px;
 }
-#catalog{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-around;
+.blockCard {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    background-color: #fdfdfe;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
-.blockCard{
-    width: 400px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.blockCard h2 {
+    margin: 0 0 10px;
 }
+.blockCard p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.blockCard img {
+    max-width: 100px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.olListItem {
+    padding-left: 20px;
+}
+.liListItem {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
 
