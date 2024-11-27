@@ -27,5 +27,6 @@ fetch('https://dummyjson.com/recipes')
             recipeBlock.appendChild(ingredientsUlList);
 
             container.appendChild(recipeBlock);
+
         });
     })
