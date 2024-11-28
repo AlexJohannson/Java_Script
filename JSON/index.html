@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    fetch('https://dummyjson.com/recipes')
+        .then(response => response.json())
+        .then(data => {
+            console.log(data);
+            const recipes = data.recipes;
+
+            for (const recipe of recipes) {
+                console.log(recipe);
+
+                if (Array.isArray(recipe.ingredients)) {
+                    const ingredients = recipe.ingredients;
+                    for (const ingredient of ingredients) {
+                        console.log(ingredient);
+                    }
+                }
+            }
+           
+        })
+
+
+
+
+
+
+</script>
+</body>
+</html>
