@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // Функції конструктори
+    // Завдання: Створіть функцію-конструктор Person, яка приймає параметри name і age, і створює об'єкт з цими властивостями. Додайте метод greet, який виводить у консоль привітання з ім'ям та віком.
+
+<!--    function User(name, age) {-->
+<!--        this.name = name;-->
+<!--        this.age = age;-->
+<!--    }-->
+
+<!--    User.prototype.greet = function () {-->
+<!--        console.log(`Hello ${this.name} ${this.age}`);-->
+<!--    };-->
+
+<!--    User.prototype.displayAge = function () {-->
+<!--        console.log(`${this.age}`);-->
+<!--    };-->
+<!--    let user = new User('Name', 21);-->
+<!--    user.greet();-->
+
+<!--    let newUser = {name: 'Name2', age: 23};-->
+<!--    user.greet.call(newUser);-->
+
+<!--    let newUser2 = {name: 'Name3', age: 43};-->
+<!--    user.greet.apply(newUser2);-->
+
+<!--    let newUser4 = user.greet.bind({name: 'name5', age: 34});-->
+<!--    newUser4();-->
+
+
+   // Завдання: Створіть клас Animal з властивістю name і методом speak. Створіть клас Dog, який наслідує Animal і додає метод bark.
+
+    // class Animal {
+    //   constructor(name) {
+    //       this.name = name;
+    //   }
+    //     speak() {
+    //       console.log(`${this.name}`);
+    //     }
+    // }
+    //
+    // class Dog extends Animal {
+    //     bark() {
+    //         console.log(`${this.name}`)
+    //     }
+    // }
+    //
+    // let dog = new Dog ('Rex');
+    //
+    // dog.speak();
+    // dog.bark();
+
+    // Дата
+    // Завдання: Створіть об'єкт Date для поточної дати. Використайте методи об'єкта Date, щоб вивести поточний рік, місяць та день тижня.
+
+    // let time = Date();
+    // console.log(time);
+
+    //
+    // let numberSet = new Set([1, 2, 3, 5]);
+    //
+    // numberSet.add(6);
+    // numberSet.add(7);
+    // numberSet.delete(3);
+    //
+    // console.log(numberSet.has(3));
+    // console.log(numberSet.has(5));
+    // console.log(numberSet);
+
+    // let map = new Map();
+    //
+    // map.set('Name', 23);
+    // map.set('Name2', 24);
+    // map.set('Name3', 25);
+    // map.forEach((name, age) => console.log(`${name}: ${age}`));
+
+
+    fetch('https://dummyjson.com/users')
+        .then(res => res.json())
+        .then(data =>{
+            const users = data.users;
+        const div = document.createElement('div')
+        document.body.appendChild(div)
+
+            for (const user of users) {
+               const userDiv = document.createElement('div');
+               userDiv.innerText = `${user.firstName} ${user.lastName} ${user.phone}`;
+                div.appendChild(userDiv);
+            }});
+</script>
+</body>
+</html>
